@@ -21,6 +21,7 @@ module.exports = {
         filename: 'dms.js',
         libraryTarget: 'umd',
         libraryExport: 'default',
+        globalObject: 'this',
         library: 'dms'
     }
 }
